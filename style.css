@@ -1,0 +1,19 @@
+body{
+    border: 2px;
+    display: inline-block;
+    text-overflow: 2px;
+}
+.qasim1,.qasim2,.qasim3{
+    display: block;
+    border-style: groove;
+    padding: 0px;
+    box-sizing: 20px;
+    text-align: center;
+    margin: 2px;
+    box-sizing: content-box;
+
+}
+.qas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
